@@ -9,7 +9,7 @@ class Key {
 }
 
 class Person {
-  private key: Key;
+  protected key: Key;
   constructor(key: Key) {
     this.key = key;
   }
